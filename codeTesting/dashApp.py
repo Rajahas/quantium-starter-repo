@@ -8,6 +8,7 @@ df = df.sort_values("date")
 
 app = Dash(__name__)
 
+# Layout
 app.layout = html.Div(
     children=[
         html.H1(
